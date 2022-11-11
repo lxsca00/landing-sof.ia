@@ -1,0 +1,7 @@
+.containerImg img {
+    width: 50%;
+}
+
+.containerImg {
+    gap: 2rem
+}

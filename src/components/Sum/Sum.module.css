@@ -1,0 +1,13 @@
+.containerSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 100%;
+    gap: 1rem;
+}
+
+.containerSecond input {
+    width: 5rem;
+    padding: 1rem;
+}

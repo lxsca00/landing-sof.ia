@@ -1,12 +1,13 @@
 import React from "react";
+import style from "./PageName.module.css";
 
-function PageName() {
+function PageName({ text }) {
   return (
     <>
-      <h1>A</h1>
-      <p>page</p>
+      <p className={style.page}>page</p>
+      <h1 className={style.letter}>{text}</h1>
     </>
   );
 }
 
-export {PageName}
+export { PageName };

@@ -1,7 +1,16 @@
-const FirstPage = () => {
-    return(
-        <h1>Primera página</h1>
-    )
-}
+import { useNavigate } from "react-router-dom";
+import { Button } from "../../components/Button";
+import { PageName } from "../../components/PageName";
 
-export {FirstPage}
+const FirstPage = () => {
+  const navigate = useNavigate();
+
+  return (
+    <section>
+      <PageName text={"A"}></PageName>
+      <Button onClick={() => navigate.push("/secondpage")}></Button>
+    </section>
+  );
+};
+
+export { FirstPage };

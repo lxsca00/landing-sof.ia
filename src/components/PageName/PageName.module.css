@@ -1,0 +1,12 @@
+.letter {
+    font-size: 15rem;
+}
+
+.page {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.letter, .page {
+    color: white;
+}
