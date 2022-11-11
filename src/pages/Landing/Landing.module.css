@@ -1,0 +1,8 @@
+.landing {
+    background: url("C:\Users\ljime\OneDrive\Escritorio\landing\src\assets\Fondo 1.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
