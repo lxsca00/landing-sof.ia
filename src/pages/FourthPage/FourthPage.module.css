@@ -5,3 +5,7 @@
 .containerImg {
     gap: 2rem
 }
+
+video {
+    width: 100%;
+}
